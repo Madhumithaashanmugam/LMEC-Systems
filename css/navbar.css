@@ -2,6 +2,13 @@
     padding: 50px 10%;
     flex-grow: 1;
   }
+  .hero-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1100;
+  }
   
   .navbar-custom {
     background-color: #363636 !important; 
@@ -119,7 +126,14 @@
   
     .navbar-toggle {
       display: block;
+      
     }
+    .navbar-toggle:focus,
+.navbar-toggle:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
   }
 @media screen and (max-width: 1024px) and (min-width: 1024px) {
   .center-nav,
@@ -134,6 +148,12 @@
     top: 15px;
     z-index: 1050;
   }
+  .navbar-toggle:focus,
+.navbar-toggle:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 }
 
 @media screen and (max-width: 912px) and (min-width: 912px) {
@@ -149,6 +169,12 @@
     top: 15px;
     z-index: 1050;
   }
+  .navbar-toggle:focus,
+.navbar-toggle:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 }
 
 @media screen and (max-width: 820px) and (min-width: 820px) {
@@ -164,6 +190,12 @@
     top: 15px;
     z-index: 1050;
   }
+  .navbar-toggle:focus,
+.navbar-toggle:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 }
 @media screen and (width: 853px) and (height: 1280px) {
   .center-nav,
@@ -178,4 +210,10 @@
     top: 15px;
     z-index: 1050;
   }
+  .navbar-toggle:focus,
+.navbar-toggle:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 }

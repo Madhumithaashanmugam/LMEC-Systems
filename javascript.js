@@ -1,13 +1,17 @@
 $(document).ready(function(){
-    $("#mobileMenuButton").click(function(){
-        $("#mobileMenu").css("right", "0");
-    });
+  $("#mobileMenuButton").click(function(){
+      $("#mobileMenu").css("right", "0");
+  });
 
-    $("#closeMenu").click(function(){
-        $("#mobileMenu").css("right", "-250px");
-    });
+  $("#closeMenu").click(function(){
+      $("#mobileMenu").css("right", "-250px");
+  });
+
+  // Close mobile menu on link click
+  $("#mobileMenu a").click(function(){
+      $("#mobileMenu").css("right", "-250px");
+  });
 });
-
 
 document.addEventListener("DOMContentLoaded", function () {
   const teamImage = document.querySelector(".about-content img");

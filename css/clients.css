@@ -1,0 +1,81 @@
+.clients-section {
+  padding: 20px;
+  text-align: center;
+}
+
+.clients-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: rgb(70, 70, 70);
+}
+
+.clients-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 0 10px;
+}
+
+.client-logo {
+  flex: 0 0 15%; /* 6-7 per row on large screens */
+  max-width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.client-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.client-img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 0.85;
+}
+
+/* Responsive resizing for different screen widths */
+
+@media (max-width: 1280px) {
+  .client-logo {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .client-logo {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+@media (max-width: 768px) {
+  .client-logo {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+}
+
+@media (max-width: 480px) {
+  .client-logo {
+    flex: 0 0 45%;
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 375px) {
+  .client-logo {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}

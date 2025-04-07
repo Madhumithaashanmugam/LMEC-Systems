@@ -1,0 +1,75 @@
+/* About Section Overall Styles */
+.about-section {
+    padding: 60px 15px;
+    background: #efefef;
+    color: #222;
+  }
+  
+  .about-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0;
+  }
+  
+  .about-heading h2 {
+    position: relative;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+    padding: 0 40px;
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+  
+  .about-heading h2::before,
+  .about-heading h2::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 180px; 
+    height: 2px;
+  }
+  
+  .about-heading h2::before {
+    left: -200px;
+    background: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  }
+  
+  .about-heading h2::after {
+    right: -200px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  }
+  
+  .about-content h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    color: #000;
+    text-align: center;
+  }
+  
+  .about-content p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  
+  .about-content img {
+    display: block;
+    margin: 20px auto 0;
+    max-width: 100%;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1.5s ease, transform 1.5s ease; /* ← increased duration to 1.5s */
+  }
+  
+  .about-content img.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+
+  

@@ -1,0 +1,91 @@
+/* Careers Section Base Styling */
+.careers-section {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 0 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.careers-section h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* Job Card Styling */
+.job-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Header of each job */
+.job-header {
+  background-color: #f5f5f5;
+  padding: 18px 24px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #222;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+/* Arrow rotation when active */
+.job-header.active {
+  background-color: #e0e0e0;
+}
+
+.job-header.active .arrow {
+  transform: rotate(180deg);
+}
+
+/* Arrow icon styling */
+.arrow {
+  font-size: 20px;
+  transition: transform 0.3s ease;
+  color: #666;
+}
+
+/* Description section (hidden by default) */
+.job-description {
+  display: none;
+  padding: 20px 24px;
+  background-color: #fafafa;
+  color: #444;
+  font-size: 16px;
+  line-height: 1.6;
+  border-top: 1px solid #eee;
+}
+
+/* Description text */
+.job-description p {
+  margin-bottom: 10px;
+}
+
+.job-description p:last-child {
+  font-weight: 500;
+  color: #000;
+}
+.careers-intro {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+  }
+  

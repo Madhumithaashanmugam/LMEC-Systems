@@ -17,9 +17,16 @@
   gap: 20px;
   padding: 0 10px;
 }
+.clients-p {
+  text-align: center;
+  font-size: 18px;
+  color: #333;     
+  margin-bottom: 20px;
+}
+
 
 .client-logo {
-  flex: 0 0 15%; /* 6-7 per row on large screens */
+  flex: 0 0 15%; 
   max-width: 15%;
   display: flex;
   justify-content: center;
@@ -43,7 +50,6 @@
   opacity: 0.85;
 }
 
-/* Responsive resizing for different screen widths */
 
 @media (max-width: 1280px) {
   .client-logo {

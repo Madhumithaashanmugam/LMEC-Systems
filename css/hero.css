@@ -24,10 +24,9 @@
     width: 100%;
     padding: 10px 20px;
     background-color: rgba(141, 141, 141, 0.85);
-    margin-bottom: 0; /* No gap between navbar and hero */
+    margin-bottom: 0; 
   }
   
-  /* Hero section */
   .hero-section {
     margin: 0;
     padding: 0;
@@ -51,14 +50,13 @@
     z-index: -2;
   }
   
-  /* Overlay to reduce video opacity */
   .background-overlay {
     position: absolute;
     top: 0;
     left: 0;
     height: 90vh;
     width: 100vw;
-    background-color: rgba(0, 0, 0, 0.5); /* Lower value = higher video visibility */
+    background-color: rgba(0, 0, 0, 0.5); 
     z-index: -1;
   }
   
@@ -96,7 +94,6 @@
     margin-bottom: 10px;
   }
   
-  /* Responsive adjustments */
   @media only screen and (max-width: 1024px) {
     .hero-section {
       height: 25vh;

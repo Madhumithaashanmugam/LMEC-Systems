@@ -1,4 +1,3 @@
-/* Careers Section Base Styling */
 .careers-section {
   max-width: 800px;
   margin: 50px auto;
@@ -14,7 +13,6 @@
   color: #333;
 }
 
-/* Job Card Styling */
 .job-card {
   border: 1px solid #ddd;
   border-radius: 10px;
@@ -30,7 +28,6 @@
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
 
-/* Header of each job */
 .job-header {
   background-color: #f5f5f5;
   padding: 18px 24px;
@@ -44,7 +41,6 @@
   transition: background-color 0.3s ease;
 }
 
-/* Arrow rotation when active */
 .job-header.active {
   background-color: #e0e0e0;
 }
@@ -53,14 +49,12 @@
   transform: rotate(180deg);
 }
 
-/* Arrow icon styling */
 .arrow {
   font-size: 20px;
   transition: transform 0.3s ease;
   color: #666;
 }
 
-/* Description section (hidden by default) */
 .job-description {
   display: none;
   padding: 20px 24px;
@@ -71,7 +65,6 @@
   border-top: 1px solid #eee;
 }
 
-/* Description text */
 .job-description p {
   margin-bottom: 10px;
 }
